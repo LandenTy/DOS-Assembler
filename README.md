@@ -48,4 +48,4 @@ An educational 16-bit assembler for MS-DOS COM programs. Designed for 386+ PCs a
 - Comments (`;`) are supported
 - Whitespace-insensitive
 - Only 8-bit registers currently: `AL, CL, DL, BL, AH, CH, DH, BH`
-- Most closely resembles **Intel x86 Real Mode (16-bit)** assembly language
+- Most closely resembles Intel x86 Real Mode (16-bit) assembly language
