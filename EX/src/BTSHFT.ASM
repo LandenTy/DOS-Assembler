@@ -34,7 +34,7 @@ start:
 ; PRINT_HEX_AL: Print AL in hex
 ; ------------------------------
 PRINT_HEX_AL:
-    PUSH AX          ; Save AX since we'll modify it
+    PUSH AX
     MOV AH, 2
 
     MOV DL, AL
@@ -60,4 +60,5 @@ PRINT_HEX_DIGIT:
     ADD DL, 'A' - 10
 .print:
     INT 21h
+
     RET
